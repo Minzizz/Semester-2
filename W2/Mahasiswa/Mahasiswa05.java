@@ -1,4 +1,4 @@
-package W2;
+package W2.Mahasiswa;
 
 public class Mahasiswa05 {
     String nim;
@@ -29,10 +29,10 @@ public class Mahasiswa05 {
     }
 
     void updateIPK(double ipkBaru){
-        ipk = ipkBaru;
+            ipk = ipkBaru;
     }
 
-    String nilaiKinerja(){
+    String nilaiKinerja(double ipk){
         if(ipk>=3.5){
             return "Kinerja sangat baik";
         }else if (ipk >= 3.0){
@@ -43,9 +43,4 @@ public class Mahasiswa05 {
             return "kinerja kurang";
         }
     }
-
-    
-
-    
-
 }

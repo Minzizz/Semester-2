@@ -1,4 +1,4 @@
-package W2;
+package W2.Mahasiswa;
 
 public class MahasiswaMain05 {
     public static void main(String[] args) {
