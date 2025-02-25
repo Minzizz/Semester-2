@@ -7,7 +7,6 @@ public class MataKuliah05 {
     int jumlahJam; //total jam pertemuan per minggu
 
     public MataKuliah05(){
-
     }
     public MataKuliah05(String kode, String nama, int sks, int jml){
         kodeMK = kode;
